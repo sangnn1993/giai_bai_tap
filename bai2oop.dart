@@ -52,7 +52,7 @@ void guiTien() {
   }
   print("Nhập số tài khoản cần gửi:");
   var idCanGui = stdin.readLineSync();
-  if (idCanGui == '' || idCanGui == null) {
+  if (idCanGui == '' || idCanGui == null) { // cần tìm thêm cách xét tài khoản nếu không nằm trong danh sách
     print("Tài khoản không chính xác");
     return;
   } else {
